@@ -11,6 +11,9 @@ $ python labels_to_cvat.py -f <path to folder with the images and .txt> -c <clas
 add -no_zip at the end if you dont need/want the .zip files with the images
 
 
+This will create 2 .zip files inside the image folder. One with the images and one with the labels and other necessary files to import the dataset into CVAT.
+
+
 ## Demo
 
 we have a folder named 'images' with 2 images and their corresponding label (yolo format .txt) like:
