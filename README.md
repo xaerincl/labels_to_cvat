@@ -1,5 +1,6 @@
 # labels_to_cvat
 
+Export a YOLO labeled dataset to CVAT. Will add different formats in the future.
 
 ## How to use 
 
