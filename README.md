@@ -7,10 +7,12 @@ Run:
 ```
 $ python labels_to_cvat -f <path to folder with the images and .txt> -c <class1name,class2name...> 
 ```
+add -no_zip at the end if you dont need/want the .zip files with the images
 
-## demo
 
-we have a folder named 'images' with the images and their corresponding label (yolo format .txt) like:
+## Demo
+
+we have a folder named 'images' with 2 images and their corresponding label (yolo format .txt) like:
 
 
 
@@ -23,7 +25,7 @@ we have a folder named 'images' with the images and their corresponding label (y
 there are 2 types of objects labeled: dog,person
 
 
-Run: (remember to change the /user/ or the full path if neccesary)
+Run: (remember to change the /user/ part or the full path if neccesary)
 ```
 $ python labels_to_cvat -f /home/user/Desktop/images -c dog,person
 ```
