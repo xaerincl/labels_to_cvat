@@ -28,6 +28,10 @@ there are 2 types of objects labeled: dog,person
 Run: (remember to change the /user/ part or the full path if neccesary)
 ```
 $ python labels_to_cvat.py -f /home/user/Desktop/images -c dog,person
+
+if you have the images folder and the labels_to_cvat.py in the same folder you can run like this:
+
+$ python labels_to_cvat.py -f images -c dog,person
 ```
 
 This will create the images_upload.zip and the annotations_upload.zip inside the images. The first contains all the images and the second zipfile contains the annotations plus the obj.names, obj.data and train.txt files necessary to upload to CVAT in order to edit the labels or export them into another format.
