@@ -5,7 +5,7 @@
 
 Run:
 ```
-$ python labels_to_cvat -f <path to folder with the images and .txt> -c <class1name,class2name...> 
+$ python labels_to_cvat.py -f <path to folder with the images and .txt> -c <class1name,class2name...> 
 ```
 add -no_zip at the end if you dont need/want the .zip files with the images
 
@@ -27,7 +27,7 @@ there are 2 types of objects labeled: dog,person
 
 Run: (remember to change the /user/ part or the full path if neccesary)
 ```
-$ python labels_to_cvat -f /home/user/Desktop/images -c dog,person
+$ python labels_to_cvat.py -f /home/user/Desktop/images -c dog,person
 ```
 
 This will create the images_upload.zip and the annotations_upload.zip inside the images. The first contains all the images and the second zipfile contains the annotations plus the obj.names, obj.data and train.txt files necessary to upload to CVAT in order to edit the labels or export them into another format.
@@ -36,7 +36,10 @@ This will create the images_upload.zip and the annotations_upload.zip inside the
 ![tutorial_2](/github_images/img2.png)
 
 
+The files will be rearranged and will look like:
 
+
+![tutorial_3](/github_images/img3.png)
 
 ## Autores ✒️
 * **Oscar Mauriaca** - *Desarrollo* - [xaerincl](https://github.com/xaerincl)
