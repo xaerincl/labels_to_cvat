@@ -30,7 +30,7 @@ Run: (remember to change the /user/ part or the full path if neccesary)
 $ python labels_to_cvat -f /home/user/Desktop/images -c dog,person
 ```
 
-This will create the images_upload.zip and the annotations_upload.zip. The first contains all the images and the second zipfile contains the annotations plus the obj.names, obj.data and train.txt files necessary to upload to CVAT in order to edit the labels or export them into another format.
+This will create the images_upload.zip and the annotations_upload.zip inside the images. The first contains all the images and the second zipfile contains the annotations plus the obj.names, obj.data and train.txt files necessary to upload to CVAT in order to edit the labels or export them into another format.
 
 
 ![tutorial_2](/github_images/img2.png)
