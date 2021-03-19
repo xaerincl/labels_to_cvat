@@ -29,7 +29,7 @@ Run: (remember to change the /user/ part or the full path if neccesary)
 ```
 $ python labels_to_cvat.py -f /home/user/Desktop/images -c dog,person
 
-if you have the images folder and the labels_to_cvat.py in the same folder you can run like this:
+if you have the images folder and the labels_to_cvat.py in the same folder its easier to run:
 
 $ python labels_to_cvat.py -f images -c dog,person
 ```
